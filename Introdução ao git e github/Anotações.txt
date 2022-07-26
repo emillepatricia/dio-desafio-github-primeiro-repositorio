@@ -1,2 +1,22 @@
 Link para dowload do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git
+
+git add . reconhece a nova pasta criada
+no bash, o comando: git commit -m "..." , envia do repositório local para o github no repositório
+cria o commit local, para enviar para a nuvem tem que dar um  : git push origin main
+
+-Criar repositório no Github com README.md
+-Se fizer mudanças, comitar
+-Clonar o repositório para usar na máquina local
+-Abrir o Git Bash direto na pasta que foi criada no explorer
+-Comando git clone e copia o endereço
+-Feito isso, após dar o comando cd e digitar o nome da pasta(repositório) entra no main
+-git status , consegue verificar que está certo na branch main
+-criar pasa com anotações --
+-Após criar uma pasta nova, e der o comando git status ele reconhce uma pasta nova, 
+-Para enviar essa pasta para o controle de versão:
+ -git add. ou git add -A --pra adicionar todos os arquivos 
+ - após isso é só dar o git status novamente
+ -git commit -m "inclusão de anotações"
+ -git push origin main ( manda todos os comites que tem localmente para a nuvem)
+Foi para a nuvem as anotações!!
